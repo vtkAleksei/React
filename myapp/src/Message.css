@@ -1,0 +1,74 @@
+.app__chat {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    justify-content: flex-end;
+    width: 400px;
+    border: 2px solid #A4A4A4;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 8px;
+    background-color:lightcyan;
+}
+
+.app__message {
+    border: 1px solid #A4A4A4;
+    border-radius: 5px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color: ivory;
+}
+
+.app__author {
+    margin: 0;
+    padding: 0;
+    text-align: end;
+    color: gray;
+}
+
+.app__message_text {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: end;
+}
+
+.app__action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.app__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 16px;
+    color: #222222;
+    border: 2px solid #A4A4A4;
+    width: 360px;
+    height: 44px;
+    outline: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    filter: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13))
+}
+
+.app__button {
+    background: #FFFFFF;
+    border: 2px solid #A4A4A4;
+    width: 224px;
+    height: 49px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 17px;
+    color: #000000;
+    outline: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.app__button:hover {
+    color: #FFFFFF;
+    background: #A4A4A4;
+}
