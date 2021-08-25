@@ -1,0 +1,2 @@
+export const SET_MESSAGES = "MESSAGES::SET_MESSAGES";
+export const SET_ERROR = "MESSAGES::SET_ERROR";
